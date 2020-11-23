@@ -9,22 +9,22 @@ const FILES_TO_CACHE = [
   "/icons/icon-512x512.png",
   "/db.js",
   "/index.js"
+
 ];
 
 // install
 self.addEventListener("install", function (evt) {
   evt.waitUntil(
-      caches.open(CACHE_NAME).then(cache => {
-          console.log("Your files were pre-cached successfully!");
-          return cache.addAll(FILES_TO_CACHE);
-      })
+    caches.open(CACHE_NAME).then(cache => {
+      console.log("Your files were pre-cached successfully!");
+      return cache.addAll(FILES_TO_CACHE);
+    })
   );
-
   self.skipWaiting();
 });
 
 // activate
-self.addEventListener("activate", function(evt) {
+self.addEventListener("activate", function (evt) {
   evt.waitUntil(
     caches.keys().then(keyList => {
       return Promise.all(
@@ -42,7 +42,7 @@ self.addEventListener("activate", function(evt) {
 });
 
 // fetch
-self.addEventListener("fetch", function(evt) {
+self.addEventListener("fetch", function (evt) {
   if (evt.request.url.includes("/api/")) {
     evt.respondWith(
       caches.open(DATA_CACHE_NAME).then(cache => {
