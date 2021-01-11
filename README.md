@@ -1,18 +1,43 @@
-# Budget-Tracker
+# Budget Tracker
+![license](https://img.shields.io/badge/license-MIT-blue)
 
-<img alt="GitHub" src="https://img.shields.io/github/license/Drop-G/budget-tracker"><br>
-<img alt="Website" src="https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=blue&up_message=online&url=https%3A%2F%2Fmobile-wally.herokuapp.com%2F">
+### Description
+Simple registry to keep track of employees
 
-## Description
+## Table of contents
+* [Description](#Description)
+* [Version](#Version)
+* [Features](#Features)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Technologies](#Technologies)
+* [License](#License)
 
-With this app you can track your financial activity online and offline. Add funds and remove funds in this mobile balance book.
 
+### Version 
+1.0.0
+
+### Features
+Keeps track of deposits, withdrawals, and spending. small graph feature to help visualize activity overtime.
 ## Installation
+git fork and/or clone the repo. Initialize with 
 
-just follow this link and the app will install the packages automatically in your browser. 
+    npm install
+    npm start
 
-<a href = "https://mobile-wally.herokuapp.com/">Budget Tracker Live Link</a>
+![Budget Tracker]()
 
+### Technologies
+* Webpack
+* Compression
+* express
+* lite-server
+* mogoose
+* morgan
 
-<a href = "https://github.com/Drop-G/budget-tracker">My Github/Budget-Tracker Repo</a>
+## Questions
+Follow me on GitHub: <a href="https://github.com/Drop-G" target="_blank">![GitHub followers](https://img.shields.io/github/followers/drop-g?label=drop-g&style=social)</a></br>
+
+## License
+MIT © Ted Peters
 
