@@ -2,7 +2,7 @@
 ![license](https://img.shields.io/badge/license-MIT-blue)
 
 ### Description
-Simple registry to keep track of employees
+Simple registry to keep track of your funds
 
 ## Table of contents
 * [Description](#Description)
@@ -19,13 +19,14 @@ Simple registry to keep track of employees
 
 ### Features
 Keeps track of deposits, withdrawals, and spending. small graph feature to help visualize activity overtime.
+
 ## Installation
 git fork and/or clone the repo. Initialize with 
 
     npm install
     npm start
 
-![Budget Tracker]()
+![Budget Tracker](public/assets/images/BudgetTracker.png)
 
 ### Technologies
 * Webpack
