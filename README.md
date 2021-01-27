@@ -9,7 +9,7 @@ Simple registry to keep track of your funds
 
 ## Table of contents
 * [Description](#Description)
-* [Deployed Application](#Live Demo)
+* [Deployed Application](#Live)
 * [Version](#Version)
 * [Features](#Features)
 * [Installation](#Installation)
