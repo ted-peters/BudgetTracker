@@ -4,17 +4,18 @@
 ### Description
 Simple registry to keep track of your funds
 
+### Live Demo
+[Budget Tracker](https://mobile-wally.herokuapp.com/)
+
 ## Table of contents
 * [Description](#Description)
+* [Live Demo](#Live Demo)
 * [Version](#Version)
 * [Features](#Features)
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Technologies](#Technologies)
 * [License](#License)
-
-## Live Demo
-[Budget Tracker](https://mobile-wally.herokuapp.com/)
 
 ### Version 
 1.0.0
